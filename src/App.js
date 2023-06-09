@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header/Header';
+import CategoryList from './Components/Categories/CategoryList/CategoryList';
 
 
 function App() {
   return (
     <div >
-      <Header />
+      <CategoryList />
     </div>
   );
 }
